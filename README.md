@@ -1,1 +1,1 @@
-# FE-Stars
+# parcel-project-template
