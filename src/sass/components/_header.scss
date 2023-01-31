@@ -1,11 +1,48 @@
 .header{
     background-color: #FFB8CA;
+    
+}
+
+.header__naw{
+    display: flex;
+}
+
+.header__logo{
+    padding-top: 37px;
+    padding-left: 16px;
 }
 
 .header__list-page{
+    padding-top: 50px;
+    padding-left: 110px;
     display: flex;
 }
 
 .header__link{
     color: $light-color;
+    padding-right: 35px;
+}
+
+.header__link:hover{
+    color: $dark-color;
+}
+
+.header__button{
+    background: $light-color;
+    border-radius: 22px;
+    color: $light-color;
+    margin-top: 38px;
+    margin-left: 110px;
+    padding-right: 37px;
+    padding-left: 37px;
+    border: none;    
+}
+
+.header__button-color{
+    color: $dark-color;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
 }
