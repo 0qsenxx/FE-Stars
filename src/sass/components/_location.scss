@@ -109,6 +109,7 @@
     align-items: center;
     text-align: center;
     color: #ffffff;
+    padding-left: 35px;
   }
   
   .franchise__button {
@@ -125,6 +126,7 @@
     text-align: center;
     color: #ffffff;
     color: #d41443;
+    padding-left: 35px;
   }
   
   .buttons__list {
@@ -135,3 +137,13 @@
     margin-top: 86px;
   }
   
+  .location-button__span {
+    font-family: 'Titan One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 66px;
+  text-align: right;
+  letter-spacing: 0.04em;
+  margin-left: 14px;
+  }
