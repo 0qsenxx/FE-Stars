@@ -1,0 +1,81 @@
+.footer{
+    // background-image: linear-gradient(to bottom, #fff 20%, #fff5f6 80%);
+    background-color: #fff5f6;
+    padding-bottom: 10px;
+}
+
+.footer__span{
+    font-family: 'Titan One';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 34px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+color: $base-color;
+}
+
+.footer__title{
+    font-family: 'Titan One';
+font-style: normal;
+font-weight: 400;
+font-size: 58px;
+line-height: 66px;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: $dark-color;
+max-width: 480px;
+}
+
+.footer__box{
+    margin-left: 800px;
+    margin-top: -100px;
+}
+
+.footer-icon__list{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 50px;
+}
+
+.footer__icon{
+    fill: $light-color;
+    background-color: $base-color;
+    padding: 7px;
+    border-radius: 50px;
+}
+
+.footer__contact{
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 186%;
+letter-spacing: 0.02em;
+color: $text-color;
+margin-left: 830px;
+}
+
+.footer-span__tel{
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 186%;
+letter-spacing: 0.02em;
+color: $dark-color;
+}
+
+.footer__border{
+    border: 1px solid #E1E1E1;
+    width: 100vw;
+    margin-top: 97px;
+}
+
+.footer-company__text{
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 186%;
+color: $adress-color;
+text-align: center;
+margin-top: 10px;
+}

@@ -5,7 +5,7 @@
     padding-top: 132px;
     padding-bottom: 165px;
     background-repeat: no-repeat;
-    background-image: linear-gradient(to bottom, #fff 20%, #fff5f6 80%);
+    background-image: linear-gradient(to bottom, #fff 20%, #fff5f6 80%), url(../images/background-location.png);
   }
   
   .location__list {
@@ -16,13 +16,14 @@
   }
   
   .location__card {
-    background: #ffffff;
+    background: $light-color;
     box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
     border-radius: 24px;
     padding-top: 51px;
     padding-bottom: 62px;
     padding-left: 43px;
     padding-right: 44px;
+    
   }
   
   .location-card__title {
@@ -30,10 +31,10 @@
     font-size: 16px;
     line-height: 186%;
     letter-spacing: 0.04em;
-    color: #ffffff;
-    background-color: #f0d1a5;
+    color: $light-color;
+    background-color: $cafe-color;
     border-radius: 6px;
-    max-width: 138px;
+    max-width: 73px;
     text-align: center;
     margin-bottom: 32px;
   }
@@ -43,7 +44,7 @@
     font-size: 16px;
     line-height: 186%;
     letter-spacing: 0.04em;
-    color: #000000;
+    color: $text-color;
     margin-bottom: 10px;
   }
   
@@ -52,7 +53,7 @@
     font-size: 16px;
     line-height: 183%;
     letter-spacing: 0.04em;
-    color: #907e82;
+    color: $adress-color;
     max-width: 250px;
     margin-bottom: 32px;
   }
@@ -71,7 +72,7 @@
     font-size: 16px;
     line-height: 186%;
     letter-spacing: 0.04em;
-    color: #000000;
+    color: $text-color;
   }
   
   .schedule__item:first-child {
@@ -82,7 +83,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 186%;
-    color: #ffa5ba;
+    color: $base-color;
   }
   
   .location__address {
@@ -93,11 +94,11 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 183%;
-    color: #907e82;
+    color: $adress-color;
   }
   
   .location__button {
-    background: #d41342;
+    background: $dark-color;
     border-radius: 22px;
     width: 198px;
     height: 44px;
@@ -108,12 +109,12 @@
     display: flex;
     align-items: center;
     text-align: center;
-    color: #ffffff;
+    color: $light-color;
     padding-left: 35px;
   }
   
   .franchise__button {
-    background: #ffffff;
+    background: $light-color;
     border-radius: 22px;
     width: 180px;
     height: 44px;
@@ -124,8 +125,8 @@
     display: flex;
     align-items: center;
     text-align: center;
-    color: #ffffff;
-    color: #d41443;
+    color: $light-color;
+    color: $dark-color;
     padding-left: 35px;
   }
   
@@ -146,4 +147,18 @@
   text-align: right;
   letter-spacing: 0.04em;
   margin-left: 14px;
+  }
+
+  .foodtruck{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 186%;
+    letter-spacing: 0.04em;
+    color: $light-color;
+    background-color: $cafe-color;
+    border-radius: 6px;
+    max-width: 138px;
+    text-align: center;
+    margin-bottom: 32px;
+    background-color: #C2E297;
   }
