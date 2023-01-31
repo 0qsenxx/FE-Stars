@@ -1,0 +1,145 @@
+.hero{
+    background: #FFB8CA;
+    padding-top: 171px;
+    position: relative;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.hero .container{
+    padding-left: 30px;
+    position: relative;
+}
+
+.hero__box{
+    width: 277px;
+}
+
+.hero__title{
+    font-family: 'Titan One';
+font-weight: 400;
+font-size: 38px;
+line-height: 1.15;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.hero__pasion{
+    font-family: 'Titan One';
+font-weight: 400;
+font-size: 58px;
+line-height: 1.13;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #D41443;
+}
+
+.hero__list{
+    display: flex;
+    gap:  15px;
+    margin-top: 25px;
+}
+
+.hero-products__button{
+    width: 104px;
+height: 40px;
+background: #D41443;
+border-radius: 20px;
+font-family: 'DM Sans';
+font-weight: 400;
+font-size: 14px;
+line-height: 1.28;
+align-items: center;
+text-align: center;
+border: none;
+color: #FFFFFF;
+}
+
+.made__button{
+    width: 138px;
+height: 40px;
+background: #FFFFFF;
+border-radius: 20px;
+border: none;
+font-family: 'DM Sans';;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.28;
+align-items: center;
+text-align: center;
+color: #D41443;
+
+}
+
+.hero__milkbox{
+    width: 418px;
+    display: flex;
+    align-items: center;
+    margin-top: 112px;
+}
+
+.hero__text{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.35;
+    color: #FFFFFF;
+}
+
+.hero__icecream{
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 500px;
+    width: 236px;
+height: 557px;
+}
+
+
+.hero__numbers{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 74px;
+}
+
+.hero__number{
+    font-family: 'Titan One';
+font-weight: 400;
+font-size: 46px;
+line-height: 1.15;
+text-align: right;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+
+color: #D41443;
+}
+
+.about__number{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    
+    color: #FFFFFF;
+}
+.tasty{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.hero__elipce{
+    width: 538px;
+height: 538px;
+background: #FFA5BA;
+border-radius: 50%;
+position: absolute;
+bottom: 75px;
+left: 400px;
+}
+
+.milk__item{
+    margin-top: 20px;
+}
