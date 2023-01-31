@@ -1,0 +1,127 @@
+.location{
+    padding-top: 132px;
+    padding-bottom: 165px;
+}
+
+.location__list{
+    display: flex;
+    justify-content: center;
+}
+
+.location__card{
+ height: 572px;
+    width: 330px;
+  background: $light-color;
+  border-radius: 24px;
+  padding-bottom: 50px;
+  margin-left: 31px;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+}
+
+.location__card:first-child{
+margin-left: 0;
+}
+
+.location__card-titl{
+    background-color: $cafe-color;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 186%;
+    color: #FFFFFF;
+    border-radius: 6px;
+    margin-top: 51px;
+    margin-left: 43px;
+    margin-right: 214px;
+    margin-bottom: 32px;
+    letter-spacing: 0.04em;    
+}
+
+.location__card-food-titl{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    line-height: 186%;
+    background-color: $lime-color;
+    color: #FFFFFF;
+    border-radius: 6px;
+    letter-spacing: 0.04em;
+    margin-top: 51px;
+    margin-left: 43px;
+    margin-right: 149px;
+    margin-bottom: 32px;
+}
+
+.location__city-name{
+    color: $text-color;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 186%;
+    letter-spacing: 0.04em;
+    margin-left: 43px;
+    margin-bottom: 10px;
+}
+
+.location__city-description{
+    color: $adress-color;
+    margin-left: 43px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 183%;
+    letter-spacing: 0.04em;
+    margin-right: 43px;
+}
+
+.schedule__item :first-child{
+    margin-top: 32px;   
+}
+
+// .location-schedule{
+//     border-bottom: 1px solid #A1A1A1;
+// }
+
+.schedule__item{
+    margin-left: 43px;
+}
+
+.schedule__titl{   
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 186%;
+    letter-spacing: 0.04em;
+}
+
+.schedule__discription{
+    color: $dark-color;
+}
+
+.location-address{
+    margin-left: 43px;
+    margin-top: 64px;
+}
+
+.address__item{
+margin-top: 10px;
+}
+
+.address__item :first-child{
+margin-top: 0;
+}
+
+.address__link{
+    color: $adress-color;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 183%;
+}
