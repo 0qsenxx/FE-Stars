@@ -1,127 +1,137 @@
-.location{
+.location {
+    /* background-image: url(./sectionbg2\ 1.png); */
+    background-position: center;
+    background-size: contain;
     padding-top: 132px;
     padding-bottom: 165px;
-}
-
-.location__list{
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, #fff 20%, #fff5f6 80%);
+  }
+  
+  .location__list {
     display: flex;
+    gap: 30px;
+    align-items: center;
     justify-content: center;
-}
-
-.location__card{
- height: 572px;
-    width: 330px;
-  background: $light-color;
-  border-radius: 24px;
-  padding-bottom: 50px;
-  margin-left: 31px;
-  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
-}
-
-.location__card:first-child{
-margin-left: 0;
-}
-
-.location__card-titl{
-    background-color: $cafe-color;
-    font-family: 'DM Sans';
-    font-style: normal;
+  }
+  
+  .location__card {
+    background: #ffffff;
+    box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+    border-radius: 24px;
+    padding-top: 51px;
+    padding-bottom: 62px;
+    padding-left: 43px;
+    padding-right: 44px;
+  }
+  
+  .location-card__title {
     font-weight: 500;
     font-size: 16px;
     line-height: 186%;
-    color: #FFFFFF;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background-color: #f0d1a5;
     border-radius: 6px;
-    margin-top: 51px;
-    margin-left: 43px;
-    margin-right: 214px;
+    max-width: 138px;
+    text-align: center;
     margin-bottom: 32px;
-    letter-spacing: 0.04em;    
-}
-
-.location__card-food-titl{
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 0.04em;
-    line-height: 186%;
-    background-color: $lime-color;
-    color: #FFFFFF;
-    border-radius: 6px;
-    letter-spacing: 0.04em;
-    margin-top: 51px;
-    margin-left: 43px;
-    margin-right: 149px;
-    margin-bottom: 32px;
-}
-
-.location__city-name{
-    color: $text-color;
-    font-family: 'DM Sans';
-    font-style: normal;
+  }
+  
+  .location__town {
     font-weight: 500;
     font-size: 16px;
     line-height: 186%;
     letter-spacing: 0.04em;
-    margin-left: 43px;
+    color: #000000;
     margin-bottom: 10px;
-}
-
-.location__city-description{
-    color: $adress-color;
-    margin-left: 43px;
-    font-family: 'DM Sans';
-    font-style: normal;
+  }
+  
+  .location__description {
     font-weight: 500;
     font-size: 16px;
     line-height: 183%;
     letter-spacing: 0.04em;
-    margin-right: 43px;
-}
-
-.schedule__item :first-child{
-    margin-top: 32px;   
-}
-
-// .location-schedule{
-//     border-bottom: 1px solid #A1A1A1;
-// }
-
-.schedule__item{
-    margin-left: 43px;
-}
-
-.schedule__titl{   
-    font-family: 'DM Sans';
-    font-style: normal;
+    color: #907e82;
+    max-width: 250px;
+    margin-bottom: 32px;
+  }
+  
+  .location__border {
+    border: 1px solid #e1e1e1;
+  }
+  
+  .location__schedule {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  
+  .schedule__title {
     font-weight: 500;
     font-size: 16px;
     line-height: 186%;
     letter-spacing: 0.04em;
-}
-
-.schedule__discription{
-    color: $dark-color;
-}
-
-.location-address{
-    margin-left: 43px;
-    margin-top: 64px;
-}
-
-.address__item{
-margin-top: 10px;
-}
-
-.address__item :first-child{
-margin-top: 0;
-}
-
-.address__link{
-    color: $adress-color;
-    font-family: 'DM Sans';
-    font-style: normal;
+    color: #000000;
+  }
+  
+  .schedule__item:first-child {
+    margin-bottom: 15px;
+  }
+  
+  .schedule__time {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 186%;
+    color: #ffa5ba;
+  }
+  
+  .location__address {
+    padding-top: 32px;
+  }
+  
+  .address__link {
     font-weight: 500;
     font-size: 16px;
     line-height: 183%;
-}
+    color: #907e82;
+  }
+  
+  .location__button {
+    background: #d41342;
+    border-radius: 22px;
+    width: 198px;
+    height: 44px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .franchise__button {
+    background: #ffffff;
+    border-radius: 22px;
+    width: 180px;
+    height: 44px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    color: #d41443;
+  }
+  
+  .buttons__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 86px;
+  }
+  
