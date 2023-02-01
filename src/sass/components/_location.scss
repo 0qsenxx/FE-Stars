@@ -1,11 +1,10 @@
 .location {
-    /* background-image: url(./sectionbg2\ 1.png); */
+    background-image: linear-gradient(to bottom, #fff 23%, #fff5f6 0%), url(../images/background-location.png);
     background-position: center;
     background-size: contain;
     padding-top: 132px;
     padding-bottom: 165px;
     background-repeat: no-repeat;
-    background-image: linear-gradient(to bottom, #fff 20%, #fff5f6 80%), url(../images/background-location.png);
   }
   
   .location__list {
