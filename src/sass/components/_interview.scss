@@ -2,6 +2,11 @@
     padding-top: 223px;
     text-align: center;
     justify-content: center;
+    position: relative;
+}
+
+.interview .container{
+    position: relative;
 }
 
 .interview__girl{
@@ -21,7 +26,6 @@ font-size: 16px;
 line-height: 1.81;
 text-align: center;
 letter-spacing: 0.04em;
-text-decoration: underline #E1E1E1;
 background: #FAFAFA;
 padding-top: 47px;
 padding-left: 87px;
@@ -30,6 +34,7 @@ padding-bottom: 39px;
 color: #000000;
 }
 
+
 .intervew_description{
 font-weight: 500;
 font-size: 20px;
@@ -37,4 +42,28 @@ line-height: 1.85;
 text-align: center;
 color: #000000;
 margin-top: 15px;
+}
+
+.quotes{
+    position: absolute;
+    top: 132px;
+    left: 50px;
+}
+
+.underline-first{
+    position: absolute;
+    height: 2px;
+    background: #E1E1E1;
+    top: 175.5px;
+left: 59px;
+right: 54px;
+}
+
+.underline-second{
+    position: absolute;
+    height: 2px;
+    background: #E1E1E1;
+    top: 206px;
+left: 59px;
+right: 54px;
 }
