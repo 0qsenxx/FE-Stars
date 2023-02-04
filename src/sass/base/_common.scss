@@ -1,4 +1,4 @@
-@import '~node_modules/modern-normalize/modern-normalize.css';
+// @import '~node_modules/modern-normalize/modern-normalize.css';
 
 body {
   font-family: 'DM Sans';
@@ -11,8 +11,8 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 
-  @media screen and (min-width: 480px) {
-    width: 480px;
+  @media screen and (min-width: 320px) {
+    width: 320px;
   }
 
   @media screen and (min-width: 768px) {
@@ -22,6 +22,8 @@ body {
   @media screen and (min-width: 1200px) {
     width: 1200px;
   }
+  
+
 }
 
 button {
