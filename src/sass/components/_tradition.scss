@@ -1,130 +1,251 @@
-.tradition{
+.tradition {
     background-repeat: no-repeat;
-    background-color: #FFF5F6;
+    background-color: #fff5f6;
     padding-top: 125px;
     justify-content: center;
+    padding-bottom: 97px;
+
+  @media screen and (min-width: 768px){
+}
+
+@media screen and (min-width: 1200px){
     padding-bottom: 139px;
 }
 
-.tradition__flex{
+}
+
+.tradition__flex {
+  display: block;
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
     display: flex;
     align-items: center;
+  }
 }
 
-.tradition__firsttitle{
-    font-family: 'Titan One';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 1.13;
-text-align: center;
-letter-spacing: 0.04em;
-text-transform: uppercase;
-color: #FFA5BA;
+.tradition__firsttitle {
+  font-family: 'Titan One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffa5ba;
 
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 30px;
+    line-height: 1.13;
+    text-align: center;
+    letter-spacing: 0.04em;
+  }
 }
 
-.tradition__title{
-    font-family: 'Titan One';
-font-weight: 400;
-font-size: 58px;
-line-height: 66px;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-color: #D41443;
+.tradition__title {
+  font-family: 'Titan One';
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 39px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 
+  color: #d41443;
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 58px;
+    line-height: 66px;
+    text-align: center;
+    letter-spacing: 0.06em;
+  }
 }
 
-.box__description1{
-    font-family: 'DM Sans';
-font-weight: 500;
-font-size: 16px;
-line-height: 1.75;
-letter-spacing: 0.04em;
-color: #000000;
-margin-bottom: 35px;
+.box__description1 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 162%;
+  color: #000000;
+  margin-top: 26px;
+  margin-bottom: 37px;
+  max-width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+ margin-top: 46px;
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.04em;
+    margin-bottom: 35px;
+    max-width: 463px;
+    margin-top: 0;
+  }
 }
 
-.box__description2{
-    font-family: 'DM Sans';
-font-weight: 500;
-font-size: 14px;
-line-height: 1.92;
-letter-spacing: 0.04em;
-color: #907E82;
+.box__description2 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 162%;
+  color: #907e82;
+  max-width: 220px;
+  margin-left: auto;
+  margin-right: auto;
 
-}
-.box__description3{
-    font-family: 'DM Sans';
-    font-weight: 500;
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
     font-size: 14px;
     line-height: 1.92;
     letter-spacing: 0.04em;
-    color: #907E82;
+    max-width: 463px;
+  }
+}
+.box__description3 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 162%;
+  color: #907e82;
+  margin-top: 20px;
+  max-width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.92;
+    letter-spacing: 0.04em;
     margin-top: 30px;
+    max-width: 463px;
+  }
 }
 
-.tradition__button{
-    width: 176px;
-height: 44px;
-font-family: 'DM Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 21px;
-padding-top: 10px;
-align-items: center;
-text-align: center;
+.tradition__button {
+  width: 176px;
+  height: 44px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #d41443;
+  background: #ffffff;
+  border-radius: 22px;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-color: #D41443;
+  @media screen and (min-width: 768px) {
+  }
 
-background: #FFFFFF;
-border-radius: 22px;
-border: none;
+  @media screen and (min-width: 1200px) {
+    font-size: 16px;
+    line-height: 21px;
+    margin-top: 45px;
+    margin-left: 0;
+  }
 }
 
-.tradition__svg{
-    margin-right: 162px;
-    fill: #D41443;
-}
+// .tradition__svg {
+//   margin-right: 162px;
+//   fill: #d41443;
+// }
 
-.tradition__box{
+.tradition__box {
+  margin-top: 26px;
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
     margin-left: 74px;
     margin-top: 45px;
+  }
 }
 
+.tradition__list {
+  margin-top: 39px;
+  gap: 38px;
+  display: flex;
+  flex-wrap: wrap;
 
-.tradition__list{
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
     display: flex;
     gap: 30px;
     margin-top: 146px;
     justify-content: center;
+  }
 }
 
-.tradition__item{
-    width: 350px;
-    justify-content: center;
+.tradition__item {
+  width: 350px;
+  justify-content: center;
 }
 
-.tradition__name{
-    font-family: 'Titan One';
-    font-weight: 400;
+.tradition__name {
+  font-family: 'Titan One';
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 41px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #d41443;
+  margin-top: 16px;
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
     font-size: 58px;
     line-height: 66px;
     letter-spacing: 0.04em;
     text-align: left;
-    color: #D41443;
+    color: #d41443;
     margin-top: 40px;
+  }
 }
 
-.tredision__carddescription{
-    font-family: 'DM Sans';
-font-weight: 700;
-font-size: 16px;
-line-height: 176%;
-letter-spacing: 0.02em;
+.tredition__carddescription {
+    font-weight: 700;
+font-size: 12px;
+line-height: 170%;
 color: #000000;
-margin-top: 15px;
-text-align: left;
+max-width: 230px;
+
+  @media screen and (min-width: 768px){
+}
+
+@media screen and (min-width: 1200px){
+    font-size: 16px;
+    line-height: 176%;
+    letter-spacing: 0.02em;
+    margin-top: 15px;
+    text-align: left;
+    max-width: 330px;
+}
+
+}
+
+.tradition__container {
+  display: block;
 }
