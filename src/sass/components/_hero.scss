@@ -3,7 +3,7 @@
 .hero {
   position: relative;
   overflow: hidden;
-  background: #ffb8ca;
+  background: $base-color;
   position: relative;
   padding-top: 70px;
   padding-bottom: 160px;
@@ -35,7 +35,7 @@
   line-height: 1.15;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: $light-color;
   max-width: 218px;
   margin-top: 137px;
 
@@ -56,7 +56,7 @@
   line-height: 1.13;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #d41443;
+  color: $dark-color;
 
   @media screen and (min-width: 768px) {
   }
@@ -74,7 +74,7 @@
 .hero-products__button {
   width: 62.4px;
   height: 24px;
-  background: #d41443;
+  background: $dark-color;
   border-radius: 20px;
   font-family: 'DM Sans';
   font-style: normal;
@@ -85,7 +85,7 @@
   align-items: center;
   text-align: center;
   border: none;
-  color: #ffffff;
+  color: $light-color;
   padding-left: 14px;
   padding-right: 10px;
 
@@ -110,8 +110,8 @@
   display: flex;
   align-items: center;
   text-align: center;
-  color: #d41443;
-  background: #fff;
+  color: $dark-color;
+  background: $light-color;
   border: none;
   border-radius: 20px;
   padding-left: 14px;
@@ -149,7 +149,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.35;
-  color: #ffffff;
+  color: $light-color;
 }
 
 .hero__icecream {
@@ -195,16 +195,14 @@
   text-align: right;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-
-  color: #d41443;
+  color: $dark-color;
 }
 
 .about__number {
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-
-  color: #ffffff;
+  color: $light-color;
 }
 .tasty {
   display: none;

@@ -1,6 +1,6 @@
 .footer {
   padding-bottom: 25px;
-  background-color: #fff5f6;
+  background-color: $section-color;
 
   @media screen and (min-width: 768px) {
   }
@@ -37,7 +37,7 @@
   line-height: 39px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: #d41443;
+  color: $dark-color;
   max-width: 234px;
 
   @media screen and (min-width: 768px) {
@@ -74,7 +74,7 @@
   font-weight: 700;
   font-size: 12px;
   line-height: 186%;
-  color: #000000;
+  color: $text-color;
   margin-top: 46px;
   margin-left: auto;
 
@@ -92,7 +92,7 @@
     font-weight: 700;
 font-size: 12px;
 line-height: 186%;
-color: #d41443;
+color: $dark-color;
 
   @media screen and (min-width: 768px){
 }
@@ -114,7 +114,7 @@ color: #d41443;
     font-weight: 700;
 font-size: 14px;
 line-height: 152%;
-color: #907E82;
+color: $adress-color;
 margin-top: 22px;
 max-width: 150px;
 margin-left: auto;
