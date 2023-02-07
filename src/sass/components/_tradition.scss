@@ -1,17 +1,16 @@
 .tradition {
-    background-repeat: no-repeat;
-    background-color: #fff5f6;
-    padding-top: 125px;
-    justify-content: center;
-    padding-bottom: 97px;
+  background-repeat: no-repeat;
+  background-color: $section-color;
+  padding-top: 125px;
+  justify-content: center;
+  padding-bottom: 97px;
 
-  @media screen and (min-width: 768px){
-}
+  @media screen and (min-width: 768px) {
+  }
 
-@media screen and (min-width: 1200px){
+  @media screen and (min-width: 1200px) {
     padding-bottom: 139px;
-}
-
+  }
 }
 
 .tradition__flex {
@@ -55,8 +54,7 @@
   text-align: center;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-
-  color: #d41443;
+  color: $dark-color;
 
   @media screen and (min-width: 768px) {
   }
@@ -73,13 +71,13 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 162%;
-  color: #000000;
+  color: $text-color;
   margin-top: 26px;
   margin-bottom: 37px;
   max-width: 220px;
   margin-left: auto;
   margin-right: auto;
- margin-top: 46px;
+  margin-top: 46px;
 
   @media screen and (min-width: 768px) {
   }
@@ -98,7 +96,7 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 162%;
-  color: #907e82;
+  color: $adress-color;
   max-width: 220px;
   margin-left: auto;
   margin-right: auto;
@@ -117,7 +115,7 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 162%;
-  color: #907e82;
+  color: $adress-color;
   margin-top: 20px;
   max-width: 220px;
   margin-left: auto;
@@ -141,8 +139,8 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 18px;
-  color: #d41443;
-  background: #ffffff;
+  color: $dark-color;
+  background: $light-color;
   border-radius: 22px;
   border: none;
   margin-left: auto;
@@ -209,7 +207,7 @@
   line-height: 41px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: #d41443;
+  color: $dark-color;
   margin-top: 16px;
 
   @media screen and (min-width: 768px) {
@@ -220,30 +218,29 @@
     line-height: 66px;
     letter-spacing: 0.04em;
     text-align: left;
-    color: #d41443;
+    color: $dark-color;
     margin-top: 40px;
   }
 }
 
 .tredition__carddescription {
-    font-weight: 700;
-font-size: 12px;
-line-height: 170%;
-color: #000000;
-max-width: 230px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 170%;
+  color: $text-color;
+  max-width: 230px;
 
-  @media screen and (min-width: 768px){
-}
+  @media screen and (min-width: 768px) {
+  }
 
-@media screen and (min-width: 1200px){
+  @media screen and (min-width: 1200px) {
     font-size: 16px;
     line-height: 176%;
     letter-spacing: 0.02em;
     margin-top: 15px;
     text-align: left;
     max-width: 330px;
-}
-
+  }
 }
 
 .tradition__container {
