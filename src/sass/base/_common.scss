@@ -4,6 +4,11 @@ body {
   font-family: 'DM Sans';
 }
 
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px;
+}
+
 .container {
   // outline: 2px solid red;
   margin-left: auto;
