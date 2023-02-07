@@ -11,37 +11,66 @@
 
 .interview__girl{
     width: 85px;
-height: 85px;
-margin-bottom: 15px;
-display: block;
-margin-left: auto;
-margin-right: auto;
+    height: 85px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+
+@media screen and (min-width: 768px){
+}
+
+@media screen and (min-width: 1200px){
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
 }
 
 .intervew__text{
-    font-family: 'DM Sans';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.81;
+    font-weight: 500;
+font-size: 12px;
+line-height: 255%;
 text-align: center;
-letter-spacing: 0.04em;
-background: #FAFAFA;
-padding-top: 47px;
-padding-left: 87px;
-padding-right: 89px;
-padding-bottom: 39px;
 color: $text-color;
+padding-top: 43px;
+padding-left: 57px;
+padding-right: 66px;
+padding-bottom: 26px;
+background: #FAFAFA;
+max-width: 270px;
+
+@media screen and (min-width: 768px){
+}
+
+@media screen and (min-width: 1200px){
+    font-size: 16px;
+    line-height: 1.81;
+    letter-spacing: 0.04em;
+    padding-top: 47px;
+    padding-left: 87px;
+    padding-right: 89px;
+    padding-bottom: 39px;
+}
 }
 
 
 .intervew_description{
 font-weight: 500;
-font-size: 20px;
-line-height: 1.85;
+font-size: 14px;
+line-height: 186%;
 text-align: center;
 color: $text-color;
+margin-top: 18px;
+
+@media screen and (min-width: 768px){
+}
+
+@media screen and (min-width: 1200px){
+    font-size: 20px;
+line-height: 1.85;
+text-align: center;
 margin-top: 15px;
+}
 }
 
 .quotes{

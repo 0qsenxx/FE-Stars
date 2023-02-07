@@ -11,14 +11,15 @@
   }
 }
 
-.footer__span {
+.footer__firsttitle {
   font-family: 'Titan One';
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   text-transform: uppercase;
   color: #ffa5ba;
-  margin-right: 80px;
+  // margin-right: 80px;
+  max-width: 250px;
 
   @media screen and (min-width: 768px) {
   }
@@ -27,6 +28,8 @@
     font-size: 30px;
     line-height: 34px;
     letter-spacing: 0.04em;
+    max-width: 500px;
+    margin-bottom: 15px;
   }
 }
 
@@ -38,7 +41,8 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: $dark-color;
-  max-width: 234px;
+  max-width: 220px;
+  text-align: left;
 
   @media screen and (min-width: 768px) {
   }
@@ -52,14 +56,32 @@
 }
 
 .footer__box {
-  margin-left: 800px;
-  margin-top: -100px;
+
+  @media screen and (min-width: 768px){
+  }
+
+  @media screen and (min-width: 1200px){
+    margin-left: 800px;
+    margin-top: -100px;
+  }
 }
 
 .footer-icon__list {
   display: flex;
-  gap: 25px;
-  margin-bottom: 50px;
+  gap: 29px;
+  margin-top: 43px;
+  justify-content: flex-end;
+  margin-bottom: 46px;
+
+  @media screen and (min-width: 768px){
+  }
+
+  @media screen and (min-width: 1200px){
+    display: flex;
+    gap: 25px;
+    margin-bottom: 50px;
+    justify-content: flex-end;
+  }
 }
 
 .footer__icon {
@@ -75,8 +97,8 @@
   font-size: 12px;
   line-height: 186%;
   color: $text-color;
-  margin-top: 46px;
-  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
 
   @media screen and (min-width: 768px) {
   }
@@ -84,7 +106,6 @@
   @media screen and (min-width: 1200px) {
     font-size: 16px;
     letter-spacing: 0.02em;
-    margin-left: 810px;
   }
 }
 
@@ -107,7 +128,14 @@ color: $dark-color;
 .footer__border {
   border: 1px solid #e1e1e1;
   width: 100vw;
-  margin-top: 97px;
+  margin-top: 43px;
+
+  @media screen and (min-width: 768px){
+  }
+
+  @media screen and (min-width: 1200px){
+    margin-top: 97px;
+  }
 }
 
 .footer-company__text {
@@ -127,6 +155,7 @@ margin-right: auto;
     line-height: 186%;
     margin-top: 10px;
     text-align: center;
+    max-width: 300px;
 }
 
 }
