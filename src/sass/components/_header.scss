@@ -10,6 +10,16 @@
   }
 }
 
+.header .container{
+  @media screen and (min-width: 320px) {
+    width: 320px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+}
+
 .header__nav {
   display: flex;
   align-items: center;
