@@ -4,19 +4,9 @@
   top: 50px;
   left: 46px;
   z-index: 1;
-  @media screen and (max-width:767px) {
+  @media screen and (max-width:1199px) {
     left: 0;
     top: 6px;
-  }
-}
-
-.header .container{
-  @media screen and (min-width: 320px) {
-    width: 320px;
-  }
-
-  @media screen and (min-width: 768px) {
-    width: 768px;
   }
 }
 
@@ -39,7 +29,8 @@
   gap: 35px;
   margin-left: 110px;
   margin-right: 110px;
-  @media screen and (max-width:767px) {
+
+  @media screen and (max-width:1199px) {
     display: none;
   }
 }
@@ -89,9 +80,10 @@
   background-color: transparent;
   border: none;
   display: none;
-  @media screen and (max-width:767px) {
-    margin-left: auto;
+  @media screen and (max-width:1199px) {
+    margin-left:auto;
     display: block;
+    margin-right: 30px;
   }
 }
 
