@@ -5,23 +5,27 @@
     padding-bottom: 98px;
   }
 }
-
 .products__firstname {
   font-family: 'Titan One';
   font-weight: 400;
   font-size: 30px;
   line-height: 34px;
+  font-size: 18px;
+  line-height: 21px;
   text-align: center;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: $base-color;
-  @media screen and (max-width: 767px) {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.16;
-    text-align: center;
-    text-transform: uppercase;
-    color: #ffa5ba;
+
+  @media screen and (min-width: 768px) {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 30px;
+    line-height: 34px;
+    letter-spacing: 0.04em;
   }
 }
 
@@ -30,19 +34,24 @@
   font-weight: 400;
   font-size: 58px;
   line-height: 66px;
+  font-size: 34px;
+  line-height: 39px;
   text-align: center;
   letter-spacing: 0.06em;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
   color: $dark-color;
+  color: #d41443;
   margin-top: 15px;
-  @media screen and (max-width: 767px) {
-    font-weight: 400;
-    font-size: 34px;
-    line-height: 1.14;
-    text-align: center;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: $dark-color;
+
+  @media screen and (min-width: 768px) {
+    font-size: 48px;
+    line-height: 55px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 58px;
+    line-height: 66px;
   }
 }
 
@@ -50,32 +59,56 @@
   display: flex;
   margin-top: 259px;
   gap: 24px;
+  gap: 150px;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  @media screen and (max-width: 767px) {
-    display: block;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    gap: 20px;
+    align-items: center;
     justify-content: center;
     margin-top: 144px;
+    margin-top: 150px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    margin-top: 259px;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
   }
 }
 
 .products__item {
   width: 329px;
   background: $base-color;
+  background: #ffb8ca;
   border-radius: 24px;
   padding-bottom: 50px;
+  padding-bottom: 40px;
   position: relative;
   padding-top: 163px;
-  @media screen and (max-width: 767px) {
-    margin-bottom: 130px;
-    width: 280px;
-  }
-}
 
-.products__item:last-child{
-  @media screen and (max-width: 767px) {
-    margin-bottom: 0;
-    width: 280px;
+  @media screen and (min-width: 768px) {
+    padding-top: 120px;
+    width: 220px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 329px;
+    padding-bottom: 50px;
+    padding-top: 163px;
+  }
+
+  &:nth-child(2) {
+    background: #f0d1a5;
+  }
+
+  &:nth-child(3) {
+    background: #c2e297;
   }
 }
 
@@ -84,7 +117,16 @@
   top: -200px;
   @media screen and (max-width: 767px) {
     top: -150px;
+  top: -125px;
+
+  @media screen and (min-width: 768px) {
+    top: -100px;
   }
+
+  @media screen and (min-width: 1200px) {
+    top: -200px;
+  }
+}
 }
 
 .products__name {
@@ -92,37 +134,76 @@
   font-weight: 400;
   font-size: 30px;
   line-height: 34px;
+  font-size: 20px;
+  line-height: 23px;
   text-align: center;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: $light-color;
   margin-top: 38px;
   margin-bottom: 32px;
+  color: #ffffff;
+  margin-bottom: 30px;
+
+  @media screen and (min-width: 768px) {
+    font-family: 'Titan One';
+    margin-top: 30px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 30px;
+    line-height: 34px;
+    margin-top: 38px;
+    margin-bottom: 32px;
+  }
 }
 
 .product__slider {
   font-family: 'Titan One';
-  font-weight: 400;
-  font-size: 30px;
   line-height: 34px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: $light-color;
+  color: #fff;
   text-align: center;
+  font-size: 30px;
 }
 
 .product__description {
   font-weight: 700;
   font-size: 16px;
   line-height: 176%;
+  font-size: 14px;
+  line-height: 152%;
   text-align: center;
   letter-spacing: 0.04em;
   color: $light-color;
   max-width: 241px;
+  color: #ffffff;
+  max-width: 200px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 32px;
   margin-bottom: 62px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+
+  @media screen and (min-width: 768px) {
+    line-height: 176%;
+    max-width: 198px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 16px;
+    max-width: 241px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+    margin-bottom: 62px;
+  }
 }
 
 .arrow-right__img {
