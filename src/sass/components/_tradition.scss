@@ -4,19 +4,24 @@
   padding-top: 125px;
   justify-content: center;
   padding-bottom: 97px;
+  background-image: url(../images/bakMilk/1xbakmilkPK-min.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 
   @media screen and (min-width: 768px) {
+    padding-top: 130px;
+    padding-bottom: 140px;
   }
 
-  @media screen and (min-width: 1200px) {
-    padding-bottom: 139px;
-  }
+  // @media screen and (min-width: 1200px) {
+  // }
 }
 
 .tradition__flex {
   display: block;
 
   @media screen and (min-width: 768px) {
+    display: flex;
   }
 
   @media screen and (min-width: 1200px) {
@@ -27,7 +32,6 @@
 
 .tradition__firsttitle {
   font-family: 'Titan One';
-  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
@@ -36,12 +40,13 @@
   color: #ffa5ba;
 
   @media screen and (min-width: 768px) {
+    font-size: 26px;
+    line-height: 30px;
   }
 
   @media screen and (min-width: 1200px) {
     font-size: 30px;
     line-height: 1.13;
-    text-align: center;
     letter-spacing: 0.04em;
   }
 }
@@ -57,12 +62,13 @@
   color: $dark-color;
 
   @media screen and (min-width: 768px) {
+    font-size: 48px;
+    line-height: 55px;
   }
 
   @media screen and (min-width: 1200px) {
     font-size: 58px;
     line-height: 66px;
-    text-align: center;
     letter-spacing: 0.06em;
   }
 }
@@ -80,6 +86,11 @@
   margin-top: 46px;
 
   @media screen and (min-width: 768px) {
+    font-size: 14px;
+    line-height: 176%;
+    color: #000000;
+    margin-bottom: 30px;
+    max-width: 340px;
   }
 
   @media screen and (min-width: 1200px) {
@@ -102,12 +113,15 @@
   margin-right: auto;
 
   @media screen and (min-width: 768px) {
+    font-size: 14px;
+    line-height: 176%;
+    letter-spacing: 0.04em;
+    max-width: 340px;
   }
 
   @media screen and (min-width: 1200px) {
     font-size: 14px;
     line-height: 1.92;
-    letter-spacing: 0.04em;
     max-width: 463px;
   }
 }
@@ -122,12 +136,15 @@
   margin-right: auto;
 
   @media screen and (min-width: 768px) {
+    font-size: 14px;
+    line-height: 176%;
+    letter-spacing: 0.04em;
+    max-width: 100%;
   }
 
   @media screen and (min-width: 1200px) {
     font-size: 14px;
     line-height: 1.92;
-    letter-spacing: 0.04em;
     margin-top: 30px;
     max-width: 463px;
   }
@@ -151,6 +168,10 @@
   justify-content: center;
 
   @media screen and (min-width: 768px) {
+    font-size: 16px;
+    line-height: 21px;
+    margin-left: 0;
+    margin-top: 62px;
   }
 
   @media screen and (min-width: 1200px) {
@@ -170,6 +191,7 @@
   margin-top: 26px;
 
   @media screen and (min-width: 768px) {
+    margin-left: auto;
   }
 
   @media screen and (min-width: 1200px) {
@@ -185,6 +207,8 @@
   flex-wrap: wrap;
 
   @media screen and (min-width: 768px) {
+    flex-wrap: nowrap;
+    gap: 60px;
   }
 
   @media screen and (min-width: 1200px) {
@@ -211,6 +235,8 @@
   margin-top: 16px;
 
   @media screen and (min-width: 768px) {
+    font-size: 48px;
+    line-height: 55px;
   }
 
   @media screen and (min-width: 1200px) {
@@ -229,8 +255,12 @@
   line-height: 170%;
   color: $text-color;
   max-width: 230px;
+  margin-top: 13px;
 
   @media screen and (min-width: 768px) {
+    font-size: 14px;
+    line-height: 174%;
+    max-width: 180px;
   }
 
   @media screen and (min-width: 1200px) {
@@ -245,4 +275,17 @@
 
 .tradition__container {
   display: block;
+}
+
+.tradition-cow__img {
+  width: 280px;
+
+  @media screen and (min-width: 768px) {
+    width: 340px;
+    flex-shrink: 0;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 516px;
+  }
 }
