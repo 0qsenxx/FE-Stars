@@ -5,3 +5,9 @@
     all: unset;
     cursor: n-resize;
 }
+
+.scroll__color{
+    background-color: $base-color;
+    border: none;
+    border-radius: 50%;
+}
