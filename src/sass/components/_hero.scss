@@ -9,6 +9,8 @@
   padding-bottom: 160px;
 
   @media screen and (min-width: 768px) {
+    padding-top: 0px;
+    padding-bottom: 0;
   }
 
   @media screen and (min-width: 1200px) {
@@ -19,6 +21,7 @@
 
 .hero .container {
   padding-left: 30px;
+  position: relative;
 }
 
 .hero__box {
@@ -132,7 +135,10 @@
   display: none;
 
   @media screen and (min-width: 768px) {
-    display: block;
+    display: flex;
+    width: 418px;
+    align-items: center;
+    margin-top: 66px;
   }
 
   @media screen and (min-width: 1200px) {
@@ -159,8 +165,16 @@
   right: 32px;
   bottom: 0;
   // z-index: 2;
-
+@media screen and (min-width:480px) {
+  position: absolute;
+  bottom: 0;
+}
   @media screen and (min-width: 768px) {
+    position: absolute;
+    bottom: 0;
+    left: 378px;
+    // width: 143px;
+    // height: 336px;
   }
 
   @media screen and (min-width: 1200px) {
@@ -177,6 +191,9 @@
 
   @media screen and (min-width: 768px) {
     display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
   }
 
   @media screen and (min-width: 1200px) {
@@ -209,6 +226,9 @@
 
   @media screen and (min-width: 768px) {
     display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
   }
 
   @media screen and (min-width: 1200px) {
@@ -231,6 +251,11 @@
   left: 170px;
 
   @media screen and (min-width: 768px) {
+    position: absolute;
+    top: 0;
+    left: 307px;
+    width: 324px;
+height: 322px;
   }
 
   @media screen and (min-width: 1200px) {
