@@ -86,11 +86,12 @@
   line-height: 10px;
   display: flex;
   align-items: center;
+  justify-content: center;
   text-align: center;
   border: none;
   color: $light-color;
-  padding-left: 14px;
-  padding-right: 10px;
+  // padding-left: 14px;
+  // padding-right: 10px;
 
   @media screen and (min-width: 768px) {
   }
@@ -112,13 +113,12 @@
   line-height: 10px;
   display: flex;
   align-items: center;
+  justify-content: center;
   text-align: center;
   color: $dark-color;
   background: $light-color;
   border: none;
   border-radius: 20px;
-  padding-left: 14px;
-  padding-right: 10px;
 
   @media screen and (min-width: 768px) {
   }
@@ -147,6 +147,11 @@
     align-items: center;
     margin-top: 56px;
   }
+}
+
+.milk__button{
+  border: none;
+  background-color: transparent;
 }
 
 .hero__text {

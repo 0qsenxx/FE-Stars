@@ -4,7 +4,7 @@ body {
   font-family: 'DM Sans';
 }
 
-html{
+html {
   scroll-behavior: smooth;
   scroll-padding-top: 70px;
 }
@@ -27,10 +27,27 @@ html{
   @media screen and (min-width: 1200px) {
     width: 1200px;
   }
-  
-
 }
 
 button {
   cursor: pointer;
+  transition: transform;
+  transition-duration: 250ms;
+  transition-delay: 50ms;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+p::selection {
+  background-color: #e17992;
+}
+
+h2::selection {
+  background-color: #e17992;
+}
+
+h3::selection {
+  background-color: #e17992;
 }
