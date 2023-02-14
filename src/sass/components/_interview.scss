@@ -3,6 +3,9 @@
   text-align: center;
   justify-content: center;
   position: relative;
+  @media screen and (min-width: 768px) {
+   
+  }
 }
 
 .interview .container {
@@ -17,6 +20,7 @@
   margin-bottom: 30px;
 
   @media screen and (min-width: 768px) {
+  margin-bottom: 20px;
   }
 
   @media screen and (min-width: 1200px) {
@@ -38,8 +42,22 @@
   padding-bottom: 26px;
   background: #fafafa;
   max-width: 270px;
+  z-index: 1;
 
   @media screen and (min-width: 768px) {
+    font-size: 14px;
+    line-height: 216%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: $text-color;
+    padding-top: 47px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 34px;
+    background: #fafafa;
+    max-width: 620px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   @media screen and (min-width: 1200px) {
@@ -76,12 +94,26 @@
 }
 
 .quotes {
+  @media screen and (min-width: 767px){
+    position: absolute;
+  top: 131px;
+  left: 116px;
+  }
   position: absolute;
   top: 132px;
   left: 175px;
+  z-index: 2;
 }
 
 .underline-first {
+  @media screen and (min-width: 767px){
+    position: absolute;
+  height: 2px;
+  background: #e1e1e1;
+  top: 175.5px;
+  left: 135px;
+  right: 135px;
+  }
   position: absolute;
   height: 2px;
   background: #e1e1e1;
@@ -91,10 +123,38 @@
 }
 
 .underline-second {
+  @media screen and (min-width: 767px){
+    position: absolute;
+  height: 2px;
+  background: #e1e1e1;
+  top: 206px;
+  left: 135px;
+  right: 135px;
+  }
   position: absolute;
   height: 2px;
   background: #e1e1e1;
   top: 206px;
+  left: 59px;
+  right: 54px;
+}
+
+.underline-thirth {  
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+@media screen and (min-width: 767px) {
+  position: absolute;
+  height: 2px;
+  background: #e1e1e1;
+  top: 238px;
+  left: 135px;
+  right: 135px;
+  }
+  position: absolute;
+  height: 1px;
+  background: #e1e1e1;
+  top: 241px;
   left: 59px;
   right: 54px;
 }

@@ -5,3 +5,10 @@
     all: unset;
     cursor: n-resize;
 }
+
+
+.scroll__arrov{
+    background-color: $base-color;
+    border: none;
+    border-radius: 50%;
+  }
