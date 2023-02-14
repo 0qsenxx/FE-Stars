@@ -1,13 +1,23 @@
 .header {
   background-color: transparent;
   position: absolute;
-  top: 50px;
-  left: 46px;
   z-index: 1;
-  @media screen and (max-width:1199px) {
+
+  @media screen and (min-width: 320px){
     left: 0;
     top: 6px;
   }
+
+  @media screen and (min-width: 768px){
+    top: 37px;
+    left: 34px;
+  }
+
+  @media screen and (min-width: 1200px){
+    top: 37px;
+    left: 46px;
+  }
+
 }
 
 .header__nav {

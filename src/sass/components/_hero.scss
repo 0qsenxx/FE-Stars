@@ -43,11 +43,15 @@
   margin-top: 137px;
 
   @media screen and (min-width: 768px) {
+    font-size: 22px;
+    line-height: 25px;
+    max-width: 162px;
   }
 
   @media screen and (min-width: 1200px) {
     font-size: 38px;
-    max-width: 280px;
+    line-height: 44px;
+    max-width: 277px;
     margin-top: 84px;
   }
 }
@@ -55,23 +59,41 @@
 .hero__pasion {
   font-family: 'Titan One';
   font-weight: 400;
-  font-size: 58px;
+  font-size: 44px;
   line-height: 1.13;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: $dark-color;
 
   @media screen and (min-width: 768px) {
+    // font-size: 22px;
+    // line-height: 25px;
+    letter-spacing: 0.04em;
+    font-size: 38px;
+    line-height: 44px;
   }
 
   @media screen and (min-width: 1200px) {
+    font-size: 58px;
+    line-height: 55px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
   }
 }
 
 .hero__list {
   display: flex;
-  gap: 15px;
-  margin-top: 25px;
+  gap: 8px;
+  margin-top: 19px;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 20px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    gap: 15px;
+    margin-top: 25px;
+  }
 }
 
 .hero-products__button {
@@ -79,8 +101,6 @@
   height: 24px;
   background: $dark-color;
   border-radius: 20px;
-  font-family: 'DM Sans';
-  font-style: normal;
   font-weight: 400;
   font-size: 8px;
   line-height: 10px;
@@ -138,7 +158,8 @@
     display: flex;
     width: 418px;
     align-items: center;
-    margin-top: 66px;
+    margin-top: 19px;
+    margin-bottom: 28px;
   }
 
   @media screen and (min-width: 1200px) {
@@ -149,18 +170,38 @@
   }
 }
 
-.milk__button{
+.milk__button {
   border: none;
   background-color: transparent;
 }
 
 .hero__text {
-  font-family: 'DM Sans';
-  font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.35;
   color: $light-color;
+
+  @media screen and (min-width: 768px) {
+    font-size: 8px;
+    line-height: 150%;
+    max-width: 114px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.35;
+    max-width: 200px;
+  }
+}
+
+.milk-button__img {
+  @media screen and (min-width: 768px) {
+    width: 18px;
+    height: 18px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 26px;
+    height: 26px;
+  }
 }
 
 .hero__icecream {
@@ -169,23 +210,20 @@
   height: 410px;
   right: 32px;
   bottom: 0;
-  // z-index: 2;
-@media screen and (min-width:480px) {
-  position: absolute;
   bottom: 0;
-}
+  top: -80px;
+
   @media screen and (min-width: 768px) {
-    position: absolute;
-    bottom: 0;
+    top: -20px;
     left: 378px;
-    // width: 143px;
-    // height: 336px;
+    width: 143px;
+    height: 336px;
   }
 
   @media screen and (min-width: 1200px) {
     display: block;
-    top: 105px;
-    left: 650px;
+    top: -45px;
+    left: 510px;
     width: 236px;
     height: 557px;
   }
@@ -204,7 +242,7 @@
   @media screen and (min-width: 1200px) {
     position: absolute;
     right: 97px;
-    top: 137px;
+    // top: 137px;
     width: 74px;
   }
 }
@@ -212,19 +250,36 @@
 .hero__number {
   font-family: 'Titan One';
   font-weight: 400;
-  font-size: 46px;
-  line-height: 1.15;
   text-align: right;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: $dark-color;
+
+  @media screen and (min-width: 768px) {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 46px;
+    line-height: 1.15;
+  }
 }
 
 .about__number {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
   color: $light-color;
+  text-align: right;
+
+  @media screen and (min-width: 768px) {
+    font-size: 8px;
+    line-height: 10px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 18px;
+  }
 }
 .tasty {
   display: none;
@@ -232,14 +287,18 @@
   @media screen and (min-width: 768px) {
     display: block;
     position: absolute;
-    bottom: 0;
+    bottom: -31px;
     right: 0;
+    width: 168px;
+    height: 133px;
   }
 
   @media screen and (min-width: 1200px) {
     position: absolute;
-    bottom: -31;
+    bottom: -61px;
     right: 0;
+    width: 293px;
+    height: 232px;
   }
 }
 
@@ -257,20 +316,38 @@
 
   @media screen and (min-width: 768px) {
     position: absolute;
-    top: 0;
+    top: -100px;
     left: 307px;
     width: 324px;
-height: 322px;
+    height: 322px;
   }
 
   @media screen and (min-width: 1200px) {
     width: 538px;
     height: 538px;
-    top: 50px;
-    left: 550px;
+    top: -115px;
+    left: 410px;
   }
 }
 
 .milk__item {
-  margin-top: 20px;
+  @media screen and (min-width: 768px) {
+    margin-top: 7px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-top: 20px;
+  }
+}
+
+.milk__img {
+  @media screen and (min-width: 768px) {
+    width: 124px;
+    height: 126px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 188px;
+    height: 191px;
+  }
 }
