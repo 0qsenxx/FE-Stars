@@ -24,23 +24,44 @@
     </form>
 </div>
 
-<script>
-    const refs = {
-      openModalBtn: document.querySelector("[data-open-modal]"),
-      closeModalBtn: document.querySelector("[data-close-modal]"),
-      backdrop: document.querySelector("[data-backdrop]"),
-    };
 
-    refs.openModalBtn.addEventListener("click", toggleModal);
-    refs.closeModalBtn.addEventListener("click", toggleModal);
+<div backdrop-data class="backdrop is-hidden">
+    <form class="modal">
+<h2 class="modal__title">Залишайте свій номер, ми Вам зателефонуємо</h2>
 
-    refs.backdrop.addEventListener("click", logBackdropClick);
+  <ul class="modal-list">
+    <li class="modal-list__link">
+      <label required class="modal-list__titl">Імя</label>
+      <br />
+        <input required class="modal-list__input" type="text" />
+    </li>
 
-    function toggleModal() {
-      refs.backdrop.classList.toggle("is-hidden");
-    }
+    <li class="modal-list__link">
+      <label class="modal-list__titl">Телефон</label>
+      <br />
+        <input required class="modal-list__input" type="text" />
+    </li>
 
-    function logBackdropClick() {
-      console.log("Це клік в бекдроп");
-    }
-  </script>
+    <li class="modal-list__link">
+      <label for="mail" class="modal-list__titl">Пошта</label>
+      <br />
+        <input required class="modal-list__input" type="text" />
+    </li>
+
+    <li>
+      <label for="coment" class="modal__comments">Коментарі</label>
+      <textarea name="coment" cols="30" rows="4" class="modal__textarea"></textarea>
+    </li>
+  </ul>
+
+  <div class="modal__section-chekmark">
+    <div class="modal__checkbox">
+      <input type="checkbox" />
+    </div>
+    <a class="modal__text-checkmark">Погоджуюсь з розсилкою і приймаю 
+        <span class="modal__span-chekmark">Умови договору</span>
+    </a>
+  </div>
+  <button class="modal__button" type="submit">Замовити</button>
+</form>
+</div>
