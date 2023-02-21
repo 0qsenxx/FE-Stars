@@ -4,13 +4,12 @@
   position: relative;
   overflow: hidden;
   background: $base-color;
-  position: relative;
-  padding-top: 70px;
+  padding-top: 190px;
   padding-bottom: 160px;
 
   @media screen and (min-width: 768px) {
-    padding-top: 0px;
     padding-bottom: 0;
+    padding-top: 100px;
   }
 
   @media screen and (min-width: 1200px) {
@@ -40,7 +39,6 @@
   text-transform: uppercase;
   color: $light-color;
   max-width: 218px;
-  margin-top: 137px;
 
   @media screen and (min-width: 768px) {
     font-size: 22px;
@@ -166,7 +164,24 @@
     width: 418px;
     display: flex;
     align-items: center;
-    margin-top: 56px;
+    margin-top: 112px;
+    position: relative;
+    margin-left: 120px;
+  }
+}
+
+.milk__img {
+  @media screen and (min-width: 768px) {
+    width: 124px;
+    height: 126px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    position: absolute;
+    width: 188px;
+    height: 191px;
+    left: -190px;
+    bottom: 0;
   }
 }
 
@@ -211,10 +226,10 @@
   right: 32px;
   bottom: 0;
   bottom: 0;
-  top: -80px;
+  top: -98px;
 
   @media screen and (min-width: 768px) {
-    top: -20px;
+    top: -25px;
     left: 378px;
     width: 143px;
     height: 336px;
@@ -222,8 +237,8 @@
 
   @media screen and (min-width: 1200px) {
     display: block;
-    top: -45px;
-    left: 510px;
+    top: -53px;
+    left: 450px;
     width: 236px;
     height: 557px;
   }
@@ -241,7 +256,7 @@
 
   @media screen and (min-width: 1200px) {
     position: absolute;
-    right: 97px;
+    right: 0;
     // top: 137px;
     width: 74px;
   }
@@ -310,14 +325,14 @@
   overflow: hidden;
   // z-index: 1;
   position: absolute;
-  top: 83px;
+  top: -115px;
   // right: -50;
-  left: 170px;
+  left: 50px;
 
   @media screen and (min-width: 768px) {
     position: absolute;
-    top: -100px;
-    left: 307px;
+    top: -60px;
+    left: 325px;
     width: 324px;
     height: 322px;
   }
@@ -326,7 +341,7 @@
     width: 538px;
     height: 538px;
     top: -115px;
-    left: 410px;
+    left: 350px;
   }
 }
 
@@ -337,17 +352,5 @@
 
   @media screen and (min-width: 1200px) {
     margin-top: 20px;
-  }
-}
-
-.milk__img {
-  @media screen and (min-width: 768px) {
-    width: 124px;
-    height: 126px;
-  }
-
-  @media screen and (min-width: 1200px) {
-    width: 188px;
-    height: 191px;
   }
 }
