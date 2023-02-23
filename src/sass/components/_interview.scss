@@ -83,6 +83,7 @@
   margin-top: 18px;
 
   @media screen and (min-width: 768px) {
+    text-decoration: underline #e1e1e1;
   }
 
   @media screen and (min-width: 1200px) {
@@ -106,6 +107,12 @@
 }
 
 .underline-first {
+<<<<<<< Updated upstream
+=======
+  @media screen and (max-width:767px) {
+    display: none;
+  }
+>>>>>>> Stashed changes
   @media screen and (min-width: 768px){
     position: absolute;
   height: 2px;
@@ -113,6 +120,7 @@
   top: 175.5px;
   left: 135px;
   right: 135px;
+  display: block;
   }
   position: absolute;
   height: 2px;
@@ -123,7 +131,14 @@
 }
 
 .underline-second {
+<<<<<<< Updated upstream
   @media screen and (min-width: 768px){
+=======
+  @media screen and (max-width:767px) {
+    display: none;
+  }
+  @media screen and (min-width: 767px){
+>>>>>>> Stashed changes
     position: absolute;
   height: 2px;
   background: #e1e1e1;
