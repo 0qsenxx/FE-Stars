@@ -107,12 +107,9 @@
 }
 
 .underline-first {
-<<<<<<< Updated upstream
-=======
   @media screen and (max-width:767px) {
     display: none;
   }
->>>>>>> Stashed changes
   @media screen and (min-width: 768px){
     position: absolute;
   height: 2px;
@@ -131,14 +128,10 @@
 }
 
 .underline-second {
-<<<<<<< Updated upstream
-  @media screen and (min-width: 768px){
-=======
   @media screen and (max-width:767px) {
     display: none;
   }
   @media screen and (min-width: 767px){
->>>>>>> Stashed changes
     position: absolute;
   height: 2px;
   background: #e1e1e1;
@@ -158,11 +151,11 @@
   @media screen and (max-width: 767px) {
     display: none;
   }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   position: absolute;
   height: 2px;
   background: #e1e1e1;
-  top: 239px;
+  top: 238px;
   left: 135px;
   right: 135px;
   }
@@ -173,4 +166,3 @@
   left: 59px;
   right: 54px;
 }
-
