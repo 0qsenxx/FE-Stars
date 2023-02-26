@@ -1,6 +1,6 @@
 .location {
-  background-image: linear-gradient(to bottom, $light-color 12%, $section-color 0%),
-    url(../images/background-location.png);
+  background-image: url(../images/background-location.png),
+    linear-gradient(to bottom, $light-color 12%, $section-color 0%);
   background-position: center;
   background-size: contain;
   padding-top: 86px;
@@ -8,15 +8,15 @@
   background-repeat: no-repeat;
 
   @media screen and (min-width: 768px) {
-    background-image: linear-gradient(to bottom, $light-color 21%, $section-color 0%),
-      url(../images/background-location.png);
+    background-image: url(../images/background-location.png),
+      linear-gradient(to bottom, $light-color 21%, $section-color 0%);
     padding-bottom: 158px;
     padding-top: 119px;
   }
 
   @media screen and (min-width: 1200px) {
-    background-image: linear-gradient(to bottom, $light-color 23%, $section-color 0%),
-      url(../images/background-location.png);
+    background-image: url(../images/background-location.png),
+      linear-gradient(to bottom, $light-color 23%, $section-color 0%);
     padding-top: 132px;
     padding-bottom: 165px;
   }
