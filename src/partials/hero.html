@@ -5,16 +5,28 @@
         icecream made with
       </h1>
       <h2 class="hero__pasion" data-aos="fade-up">passion</h2>
-      <ul class="hero__list">
+      <ul class="hero-button__list">
         <li class="hero__item">
-          <button class="hero-products__button">Products</button>
+          <button
+            class="hero-products__button"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
+            Products
+          </button>
         </li>
         <li class="hero__item">
-          <button class="made__button">How it’s made?</button>
+          <button
+            class="made__button"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
+            How it’s made?
+          </button>
         </li>
       </ul>
     </div>
-    <div class="hero__elipce"></div>
+    <div class="hero__elipce" data-aos="fade-up" data-aos-duration="1000"></div>
     <!-- <picture>
       <source
         srcset="
@@ -27,7 +39,7 @@
         srcset="./images/heromilk/2xheromilkPK-min.png"
         media="(min-width: 1200px)"
       /> -->
-    <div class="hero__milkbox">
+    <div class="hero__milkbox" data-aos="fade-right" data-aos-duration="1000">
       <img
         src="./images/heromilk/1xheromilkPK-min.png"
         alt="hero-milk"
@@ -74,13 +86,14 @@
         media="(min-width: 768px)"
       /> -->
     <img
-    data-aos="fade-up" data-aos-duration="1000"
+      data-aos="fade-up"
+      data-aos-duration="1000"
       class="hero__icecream"
       src="./images/heroIceCream/1xIceCreamPK-min.png"
       alt="hero-icecream"
     />
     <!-- </picture> -->
-    <ul class="hero-numbers__list">
+    <!-- <ul class="hero-numbers__list" data-aos="fade-left" data-aos-duration="800">
       <li class="hero-numbers__item">
         <span class="hero__number">16</span>
         <p class="about__number">cafes</p>
@@ -91,7 +104,22 @@
         <p class="about__number">food trucks</p>
         <div class="number__circle"></div>
       </li>
-    </ul>
+    </ul> -->
+
+    <div class="hero__numbers">
+      <ul class="hero-numbers__list">
+        <li class="hero-numbers__item">
+          <p class="about__number"><span class="hero__number">16</span>cafes</p>
+          <div class="number__circle"></div>
+        </li>
+        <li class="hero-numbers__item">
+          <p class="about__number">
+            <span class="hero__number">23</span>food trucks
+          </p>
+          <div class="number__circle"></div>
+        </li>
+      </ul>
+    </div>
     <!-- <picture>
       <source
         srcset="

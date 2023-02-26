@@ -79,7 +79,7 @@
   }
 }
 
-.hero__list {
+.hero-button__list {
   display: flex;
   gap: 8px;
   margin-top: 19px;
@@ -245,21 +245,24 @@
 }
 
 .hero-numbers__list {
-  display: none;
+  // display: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
-  @media screen and (min-width: 768px) {
-    display: block;
-    // position: absolute;
-    right: 0;
-    top: 0;
-  }
+  // @media screen and (min-width: 768px) {
+  //   display: block;
+  //   // position: absolute;
+  //   // right: 0;
+  //   // top: 0;
+  // }
 
-  @media screen and (min-width: 1200px) {
-    position: absolute;
-    right: 0;
-    // top: 137px;
-    width: 74px;
-  }
+  // @media screen and (min-width: 1200px) {
+  //   // position: absolute;
+  //   // right: 0;
+  //   // // top: 137px;
+  //   // width: 74px;
+  // }
 }
 
 .hero__number {
@@ -269,20 +272,63 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: $dark-color;
+  position: absolute;
+  top: 0;
+  z-index: 2;
 
   @media screen and (min-width: 768px) {
     font-size: 28px;
     line-height: 32px;
+    right: 10px;
   }
 
   @media screen and (min-width: 1200px) {
     font-size: 46px;
     line-height: 1.15;
+    right: 0;
   }
 }
 
-.hero-numbers__item{
+.hero__numbers {
+  @media screen and (min-width: 320px) {
+    display: none;
+  }
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    position: absolute;
+    right: 34px;
+    top: -6px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    right: 0;
+    top: -4px;
+  }
+}
+
+.hero-numbers__item {
   position: relative;
+
+  &:first-child {
+    @media screen and (min-width: 768px) {
+      margin-bottom: 14px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      margin-bottom: 18px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    padding-top: 32px;
+    padding-right: 10px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 55px;
+    padding-right: 0;
+  }
 }
 
 .number__circle {
