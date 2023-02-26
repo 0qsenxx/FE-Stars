@@ -4,14 +4,13 @@
   justify-content: center;
   position: relative;
   @media screen and (min-width: 768px) {
-   
+
   }
 }
 
 .interview .container {
   position: relative;
 }
-
 .interview__girl {
   width: 85px;
   height: 85px;
@@ -29,7 +28,6 @@
     margin-right: auto;
   }
 }
-
 .intervew__text {
   font-weight: 500;
   font-size: 12px;
@@ -73,7 +71,6 @@
     margin-right: auto;
   }
 }
-
 .intervew_description {
   font-weight: 500;
   font-size: 14px;
@@ -83,6 +80,7 @@
   margin-top: 18px;
 
   @media screen and (min-width: 768px) {
+    text-decoration: underline #e1e1e1;
   }
 
   @media screen and (min-width: 1200px) {
@@ -106,13 +104,17 @@
 }
 
 .underline-first {
-  @media screen and (min-width: 767px){
+  @media screen and (max-width:767px) {
+    display: none;
+  }
+  @media screen and (min-width: 768px){
     position: absolute;
   height: 2px;
   background: #e1e1e1;
   top: 175.5px;
   left: 135px;
   right: 135px;
+  display: block;
   }
   position: absolute;
   height: 2px;
@@ -123,6 +125,9 @@
 }
 
 .underline-second {
+  @media screen and (max-width:767px) {
+    display: none;
+  }
   @media screen and (min-width: 767px){
     position: absolute;
   height: 2px;
