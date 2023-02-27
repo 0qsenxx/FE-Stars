@@ -106,6 +106,7 @@ header .container{
   background-color: transparent;
   border: none;
   display: none;
+  margin-right: 0;
   @media screen and (max-width: 1199px) {
     margin-left: auto;
     display: block;
@@ -125,6 +126,9 @@ header .container{
 }
 
 .modal {
+  @media screen and (max-width: 760px) {
+    width: 100%;
+  }
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1),
     400ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 260px;
