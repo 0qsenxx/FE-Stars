@@ -29,9 +29,12 @@
   align-items: center;
   justify-content: center;
 
+  @media screen and (min-width: 768px) {
+    flex-wrap: nowrap;
+  }
+
   @media screen and (min-width: 1200px) {
     gap: 30px;
-    flex-wrap: nowrap;
   }
 }
 
