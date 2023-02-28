@@ -78,10 +78,6 @@
   color: $text-color;
   margin-top: 18px;
 
-  @media screen and (min-width: 768px) {
-    text-decoration: underline #e1e1e1;
-  }
-
   @media screen and (min-width: 1200px) {
     font-size: 20px;
     line-height: 1.85;
@@ -177,7 +173,7 @@
   left: 59px;
   right: 54px;
 
-  @media screen and (min-width: 769px) {
+  @media screen and (min-width: 768px) {
     display: none;
   }
 }
@@ -190,7 +186,7 @@
   left: 59px;
   right: 54px;
 
-  @media screen and (min-width: 769px) {
+  @media screen and (min-width: 768px) {
     display: none;
   }
 }
@@ -203,7 +199,7 @@
   left: 59px;
   right: 54px;
 
-  @media screen and (min-width: 769px) {
+  @media screen and (min-width: 768px) {
     display: none;
   }
 }
@@ -216,7 +212,7 @@
   left: 59px;
   right: 54px;
 
-  @media screen and (min-width: 769px) {
+  @media screen and (min-width: 768px) {
     display: none;
   }
 }
